@@ -1,0 +1,18 @@
+---
+plugin:
+  version: 0.3.1
+  autoUpdate: false
+respawn-after: 10
+always-respawn-in: false
+drop: true
+hide-player: true
+level: '*'
+messages:
+  broadcast-death: true
+  runingame: Please run this command ingame
+  messagetoplayer: You died
+  messagetoplayerrespawn: You respawned
+  killedbyunknown: '{PLAYER} died'
+  killedby: '{PLAYER} was killed by {KILLER}'
+  killedbyprojectile: '{PLAYER} was shot by {KILLER}'
+...
